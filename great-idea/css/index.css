@@ -65,15 +65,15 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Copy and paste your work from yesterday here and start to refactor into flexbox */
-nav{
-	display:flex;
-	width: 100%;
+
 
 }
 header{
 	display:flex;
-	margin-bottom: 2%;
+	margin-bottom: 10%;
 	justify-content: space-around;
+	position:fixed;
+	
 	
 	
 }
@@ -93,7 +93,8 @@ nav a:hover{
 }
 
 .logo{
-	margin-left: 10px;	
+		
+	justify-content: flex-end;
 	
 }
 .demand{
@@ -156,7 +157,7 @@ button:hover{
 
 }
 
-.bottom{ 
+.bottom2{ 
 	display:flex;
 	width: 90%;
 	border-bottom: 2px solid black;
@@ -165,7 +166,7 @@ button:hover{
 	padding-left: %;
 	margin-left: 4%;
 }
-.services{
+.services2{
 	width:32%;
 	}
 .prodcut{
@@ -195,6 +196,10 @@ span{
 }
 
 /*services page*/
+
+.header2{
+	margin-bottom: 10px;
+}
 
 .topimage{
 	display:flex;
